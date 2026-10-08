@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4631ef06-4e7e-4ebb-9ba8-0af9133592a8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/AuthService1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/config/AccountNotActiveException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/config/EmailAlreadyUsedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/config/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/config/InvalidCredentialsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/config/JwtAuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/config/TokenExpiredException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/dto/ForgotPasswordRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/dto/LoginRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/dto/LoginResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/dto/RegisterRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/dto/RegisterResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/dto/ResetPasswordRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/model/PasswordResetToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/repository/PasswordResetTokenRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discover/authservice1/service/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/discover/authservice1/AuthService1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/ContentServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/config/DataSeeder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/config/JwtAuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/controller/ActualiteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/controller/EvenementController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/controller/InvestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/controller/SecteurController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/dto/ActualiteDetailDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/dto/ActualiteDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/dto/ActualitesPageDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/dto/EvenementDetailDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/dto/EvenementDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/dto/HomeDataDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/dto/InvestDataDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/dto/OpportuniteDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/dto/SecteurDetailDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/model/Actualite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/model/Evenement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/model/Inscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/model/Opportunite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/model/Secteur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/repository/ActualiteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/repository/EvenementRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/repository/InscriptionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/repository/OpportuniteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/repository/SecteurRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/service/ActualiteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/service/EvenementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/service/HomeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/service/InvestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/service/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/java/discove/contentservice/service/SecteurService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-service/src/test/java/discove/contentservice/ContentServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discover/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discover/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discover/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discover/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discover/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discover/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discover/src/main/java/discovery/discover/DiscoverApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discover/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discover/src/test/java/discovery/discover/DiscoverApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="37" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yossri4"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yossri4/microservice5se1.git",
+    "accountId": "502578c0-c013-4e7a-81ad-3587bf9c7044"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3KEbBWsXSHOs6Gz1J6YP5QavsI6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthService1Application.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;springboot&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Eureka Server/microservice5se1/auth-service1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="AuthService1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="auth-service1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="discover.authservice1.AuthService1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4631ef06-4e7e-4ebb-9ba8-0af9133592a8" name="Changes" comment="" />
+      <created>1791125543109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791125543109</updated>
+      <workItem from="1791125544358" duration="39000" />
+      <workItem from="1791138677575" duration="8063000" />
+      <workItem from="1791205276036" duration="1253000" />
+      <workItem from="1791414968712" duration="735000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
